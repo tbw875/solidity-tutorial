@@ -7,10 +7,19 @@ contract myContract{
 
     address owner;
 
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
     struct Person {
         uint _id;
         string _firstName;
         string _lastname;
+    }
+
+    constructor() {
+        owner = msg.sender;
     }
 
     function addPerson(string memory _firstName, string memory _lastName) public onlyOwner{
