@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"set(string)": {
+					"notice": "function get() public view returns(string memory) { // public view sets visibility and that it is read-only        return value;   }"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/solidity/newProject/myContract.sol": "myContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/solidity/newProject/myContract.sol": {
+			"keccak256": "0xa36922c76de22203dd7526cb47f98c9a1505bc27f0b169b5659f7b11c098c03d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b50aefe830b8cc9020dc8ff3705108eab78dec16553916edcb468416db4ef449",
+				"dweb:/ipfs/QmXdrai9m9UHpZSfvbyeYTLocxPJv1grKj4xvAuDQjqozA"
+			]
+		}
+	},
+	"version": 1
+}
